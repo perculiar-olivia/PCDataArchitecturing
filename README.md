@@ -15,12 +15,12 @@ The goal of the project it to transform raw data into meaningful insights throug
 ## **Project flow**
 ![flow diagram](https://github.com/perculiar-olivia/PCDataArchitecturing/blob/76d5b79de2e1eb305e59118dd24ba94b9f8ca56f/mermaid-diagram.png)
 
-###_A diagram showing the steps taken in the project_
+_A diagram showing the steps taken in the project_
 
 ## **Model diagram**
 ![model diagram](https://github.com/perculiar-olivia/PCDataArchitecturing/blob/76d5b79de2e1eb305e59118dd24ba94b9f8ca56f/image/draw.io%20model.jpg)
 
-###_Model showing the dimension tables_
+_Model showing the dimension tables_
 
 
 
