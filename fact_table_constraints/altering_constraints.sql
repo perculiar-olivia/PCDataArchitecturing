@@ -1,3 +1,5 @@
+--ADDING
+
 --location
 ALTER TABLE fact_sales
 ADD CONSTRAINT fk_LocationID
@@ -53,4 +55,47 @@ FOREIGN KEY (PriorityID)
 REFERENCES [ComputerStd].[dbo].[dim_priority] (PriorityID);
 
 
---ALTER TABLE fact_sales CONSTRAINT ALL;
+--DROPPING
+
+--location
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_LocationID;
+
+
+--store
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_StoreID
+
+
+--product
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_ProductID;
+
+
+--customer
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_CustomerID;
+
+
+--sales person
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_SalesPersonID;
+
+
+--date
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_DateID;
+
+
+--payment
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_PaymentID
+
+
+--channel
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_ChannelID;
+
+--priority
+ALTER TABLE fact_sales
+DROP CONSTRAINT fk_PriorityID;
